@@ -68,6 +68,9 @@ shopt -s histappend
 source /usr/local/completion/git-completion.bash
 GIT_PS1_SHOWDIRTYSTATE=true
 
+# symfony2 settings
+source /usr/local/bin/symfony2-autocomplete.bash
+
 # Bashmarks http://bit.ly/dQKcxc
 # Usage
 # s <bookmark_name> - Saves the current directory as "bookmark_name"
